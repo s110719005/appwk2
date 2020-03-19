@@ -7,8 +7,10 @@ const App = () => {
   return (
     <ScrollView>
       <View style={styles.backStyle}>
+
         <Header />
         <AlbumList />
+        
       </View>
     </ScrollView>
   );
